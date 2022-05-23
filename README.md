@@ -11,6 +11,15 @@ There are 8 primary step in the initial setup of Redux
 - Pass props via connect
 - Dispatch action
 
+What do these things do
+
+| Redux Aspect   | Function                                                                                                                                           |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Action         | Define what is being performed                                                                                                                     |
+| Reducers       | Handle the action being requested. This is a function that accepts state, mods it, then returns it.                                                |
+| RootReducer    | Collects and offers up all reducers from a single place                                                                                            |
+| configureStore | A "store" is an object within the Redux library. `configureStore` is a function within this library that is used to hold state data for Redux apps |
+
 Once setup with these features, the workflow for adding features is as follows.
 
 - Create action
